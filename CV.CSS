@@ -1,0 +1,94 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;}
+body{
+    background-color: rgb(63, 53, 53);}
+header{
+    padding: 12px;
+    color: white;
+    max-width: 800px;
+    margin: 0 auto;}
+.CV{
+    max-width: 800px;
+    margin: 0 auto;}
+.Derecha{
+    background-image: url("https://www.wallpapertip.com/wmimgs/49-494416_light-coloured-hd-background.jpg");
+    padding: 16px;
+    float: right;
+    width: 65%;
+    height: 1032px;}
+.Izquierda{
+    color: white;
+    background-color: rgba(146, 109, 53, 0.884);
+    float: left;
+    padding: 16px;
+    width: 27%;
+    height: 500px;}
+.Abajo{
+    color: white;
+    background-color: rgb(53, 158, 144);
+    float: left;
+    padding: 16px;
+    width: 27%;
+    height: 500px;}
+.Foto_CV{
+    height: 200px;
+    width: 200px;
+    border: solid black;}
+.Edad{
+    float: right;
+    font-size: 30px;
+    margin: -160px 0 0 0;}
+.Nombre_CV{
+    float: right;
+    font-size: 55px;
+    margin: -8px 0 0 0;}
+.Items1{
+    font-size: 26px;
+    font-weight:bolder;}
+.Contenido_negro{
+    font-size: 14px;}
+.Nombres_Trabajos{
+    font-size: 19px;}
+.Puesto_Trabajo{
+    font-size: 15px;}
+.Contenido_negro1{
+    font-size: 14px;
+    float: right;
+    width: 58%;
+    margin: -90px 0 0 0;}
+.Items2{
+    float: right;
+    margin: -120px 0 0 0;}
+.Icono{
+    margin: 5px 5px 0 0;
+    float: left;
+    width: 15px;
+    height: 15px;}
+.Habilidades{
+    font-size: 18px;
+    line-height: 35px;}
+.BOTON{
+    max-width: 100px;
+    margin: 10px auto;
+    border: none;
+    background-color: #4CAF50;
+    border-radius: 2PX;
+    color:  white;}
+@media only screen and (max-width: 800px){
+        .Derecha, .Abajo, .Izquierda{
+        float: none;
+        margin: auto;
+        width: 480px;
+        min-width: 200px;
+        height: 100%;}
+        .Edad, .Nombre_CV, .Contenido_negro1, .Items2{
+            margin: auto;
+            width: auto;
+            float:none;}
+        .Foto_CV{
+            margin: 0 auto;}
+        .Items2{
+            font-size: 20px;}
+        .Contenido_negro1{
+            font-size: 19px;}}
